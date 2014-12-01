@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Trendy restaurant focuses on showing off a restaurant, and building for functionality">
+    <meta name="author" content="Trendy Templates">
+
+    <title>Trendy Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel='stylesheet' type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="css/restaurant.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Montserrat' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+      <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+            <i class="fa fa-bars" style="font-size:30px!important;color:black;"></i>
+          </button>
+           <a class="navbar-brand" href="#page-top">
+           <i class="fa fa-chevron-circle-right"></i> 
+           <span>Trendy Eatery</span>
+           </a>
+       </div>
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                   <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#menu">Menu</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+            </ul>
+        </div>
+   </div>
+</nav>
+
+
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for Slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <!-- Set the first background image using inline CSS below. -->
+            <div class="full" style="background-image:url('../restaurant/images/slide-1.jpg');"></div>
+            <div class="carousel-caption">
+                <h2>Your 1st Caption</h2>
+            </div>
+        </div>
+        <div class="item">
+            <!-- Set the second background image using inline CSS below. -->
+            <div class="full" style="background-image:url('../restaurant/images/slide-2.jpg');"></div>
+            <div class="carousel-caption">
+                <h2>Your 2nd Caption</h2>
+            </div>
+        </div>
+        <div class="item">
+            <!-- Set the third background image using inline CSS below. -->
+            <div class="full" style="background-image:url('../restaurant/images/slide-3.jpg');"></div>
+            <div class="carousel-caption">
+                <h2>Your 3rd Caption</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="icon-next"></span>
+    </a>
+
+</header>
+
+<!-- about -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h1>About Us</h1>
+                <hr class="primary">
+            </div>
+            <div class="col-md-6">
+                <p>This is some text describing your restaurant. Make this section special by telling about your restaurant, why you are here/open, and what you do. Maybe you make a porterhouse like no one else's business. Or maybe you make a creme brulee that is to die for. </p>
+            </div>
+            <div class="col-md-6">
+                <p> You might also be wondering about the boxes. This template is broken down into a series of full, half, and 3/4 boxes on the bootstrap grid system. Feel free to modify anyway you see fit, but I thought a restaurant site could be deconstructed into boxes.</p>
+            </div>
+        </div>    
+        <!-- change the images for use. for the 2nd image, class="img-responsive" was messing with width -->
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="../restaurant/images/restaurant1.jpg" class="img-responsive center-block" width="328px" height="185px">
+            </div>
+            <div class="col-md-4">
+                <img src="../restaurant/images/restaurant2.jpg"width="328px" height="185px">
+            </div>
+            <div class="col-md-4">
+                <img src="../restaurant/images/restaurant3.jpg" class="img-responsive center-block" width="328px" height="185px">
+            </div>
+        </div> <!-- row -->
+    </div> <!-- container -->  
+</section>
+
+
+<!-- menu -->
+<section class="menu" id="menu">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <h1>Our Menu</h1>
+                <hr class="primary">
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <!-- Menu header -->
+                <div class="menu-head">
+                    <!-- Image for menu item -->
+                    <img class="menu-img img-responsive img-thumbnail" src="../restaurant/images/restaurant1.jpg" alt="" width="360px" height="185px" />
+                    <!-- Menu title / Heading -->
+                    <h3>Drinks</h3>
+                </div>
+                <!-- Menu item details -->
+                <div class="menu-details red">
+                    <!-- Menu list -->
+                    <ul class="list-unstyled">
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Some</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$1</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Drinks</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$2</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Are</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$3</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Always</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$4</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Refreshing</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$5</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                    </ul>
+                  </div><!-- / Menu details end -->
+                </div> <!-- first -->
+
+            <div class="col-md-4 col-sm-4">
+                <!-- Menu header -->
+                <div class="menu-head">
+                    <!-- Image for menu item -->
+                    <img class="menu-img img-responsive img-thumbnail" src="../restaurant/images/restaurant1.jpg" alt="" width="360px" height="180px" />
+                    <!-- Menu title / Heading -->
+                    <h3>Entrees</h3>
+                </div>
+                <!-- Menu item details -->
+                <div class="menu-details green">
+                    <!-- Menu list -->
+                    <ul class="list-unstyled">
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Bring</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$6</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">On</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$7</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">The</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$8</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Delicious</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$9</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Entrees</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$10</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                    </ul>
+                  </div><!-- / Menu details end -->
+                </div> <!-- second -->
+
+                <div class="col-md-4 col-sm-4">
+                <!-- Menu header -->
+                <div class="menu-head">
+                    <!-- Image for menu item -->
+                    <img class="menu-img img-responsive img-thumbnail" src="../restaurant/images/restaurant1.jpg" alt="" width="360px" height="185px" />
+                    <!-- Menu title / Heading -->
+                    <h3>Dessert</h3>
+                </div>
+                <!-- Menu item details -->
+                <div class="menu-details blue">
+                    <!-- Menu list -->
+                    <ul class="list-unstyled">
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Finish</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$11</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Meals</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$12</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">With</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$13</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Tastey</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$14</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="menu-list-item">
+                                <!-- Icon -->
+                                <i class="fa fa-angle-right"></i> <a href="#">Dessert</a>
+                                <!-- Price badge -->
+                                <span class="pull-right">$15</span>
+                                <div class="clearfix"></div>
+                            </div>
+                        </li>
+                    </ul>
+                  </div><!-- / Menu details end -->
+                </div><!-- third -->
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container-fluid">
+        <div class="row-fluid text-center">
+            <div class="col-lg-12">
+                <h1>Come Meet Us</h1>
+                <hr class="primary">
+            </div>
+            <div class="col-md-3">
+                <div class="contact-about">
+                    <h5>Trendy Eatery</h5>
+                    <hr>
+                    <br/>
+                    <p>This restaurant is a good place to each. Eat here if you like good food.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Some dishes</h5>
+                <hr>
+                <br/>
+                <div class="col-xs-4">
+                  <img src="../restaurant/images/restaurant1.jpg" width="75px" height="25px">
+                </div>
+                <div class="col-xs-4">
+                  <img src="../restaurant/images/restaurant2.jpg" width="75px" height="25px">
+                </div>
+                <div class="col-xs-4">
+                  <img src="../restaurant/images/restaurant3.jpg" width="75px" height="25px">
+                </div>
+                <br/>
+                <br/>
+                <div class="col-xs-4">
+                  <img src="../restaurant/images/restaurant1.jpg" width="75px" height="25px">
+                </div>
+                <div class="col-xs-4">
+                  <img src="../restaurant/images/restaurant2.jpg" width="75px" height="25px">
+                </div>
+                <div class="col-xs-4">
+                  <img src="../restaurant/images/restaurant3.jpg" width="75px" height="25px">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <h5>Join us Today</h5>
+                <hr>
+                <form class="form-horizontal" role="form">
+                  <div class="form-group">
+                    
+                   <div class="col-xs-12">
+                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                   </div>
+                  </div>
+                    <div class="form-group">
+                      
+                    <div class="col-xs-12">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                  </div>
+                  <a class="btn btn-small btn-danger" style="float:left;">Join!</a>
+                </form>    
+            </div>
+            <div class="col-md-3 contact-us clearfix">
+                <h5>Contact Us</h5>
+                <hr>
+                <div class="contact-details">
+                    <!-- Address / Icon -->
+                    <div class="clearfix">
+                    <i class="fa fa-map-marker fa-1x"></i> <span>567 Some St, Beachside, CA</span>
+                    </div>
+                    <!-- Contact Number / Icon -->
+                    <i class="fa fa-phone fa-1x"></i> <span>1-234-567-8910</span>
+                    <div class="clearfix"></div>
+                    <!-- Email / Icon -->
+                    <i class="fa fa-envelope fa-1x"></i> <span>abc@example.com</span>
+                    <div class="clearfix"></div>
+                </div>
+                <ul class="social">
+                    <li><a><i class="fa fa-facebook fa-1x"></i></a></li>
+                    <li><a><i class="fa fa-twitter fa-1x"></i></a></li>
+                    <li><a><i class="fa fa-pinterest fa-1x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <p>Copyright &copy; Your Trendy Restaurant 2014</p>
+        </div>
+    </div>
+  </div>  
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<!-- for scroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+$('.carousel').carousel({
+    interval: 5000 //changes the speed
+})
+</script>
+
+</body>
+
+</html>

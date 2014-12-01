@@ -1,0 +1,254 @@
+/* restaurant css */
+
+html,
+body {
+    height: 100%;
+}
+
+/* all h and p tags are here using google fonts. To add your own (or multiple)
+get the names of the ones you want, and add them to the <link> containing the google font
+then add to here with any other text variations */
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+p {
+   font-family: "Open Sans", sans-serif;
+   font-size: 18px; 
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* stupid simple nav, for use, make colors hex code */
+.navbar {
+    background-color: white;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: black;
+}
+
+.navbar-custom .navbar-header > a {
+    color: black;
+}
+
+/* underlines */
+hr.primary {
+    max-width: 100px;
+    margin: 25px auto;
+    border-bottom: 0;
+     height: 5px;
+    margin: 15px auto;
+    max-width: 100px;
+    border-top: 2px solid #050002 !important;
+}
+
+/* about section is pretty much all html */
+.about {
+    padding: 100px;
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.about img {
+   margin: 0 auto !important;
+}
+
+/* start menu section */
+.menu {
+    padding: 120px;
+}
+
+/* this code is not entirely necessary, but looks good
+you could easily make another type of menu mainly with html */
+.menu { border-top: 1px solid #f1f1f1; }
+.menu .menu-head{ position: relative; }
+.menu h3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: inline-block;
+    margin-top: -45px;
+    padding: 5px 0;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.menu.title-border{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -75px;
+    margin-top: 30px;
+    width: 150px;
+    height: 5px;
+}
+
+.menu img.menu-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+}
+
+.menu .menu-details {
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.15);
+}
+
+/* changes the bg-color of each, you could write a nth-child() selector instead of html selectors */
+/* first */
+.menu .menu-details.red {
+    background-color: #FF7878 !important;
+}
+/* second */
+.menu .menu-details.green {
+    background-color: #017668 !important;
+}
+/* third */
+.menu .menu-details.blue {
+    background-color: #69D2E7 !important;
+}
+
+.menu .menu-details ul { margin: 0; }
+
+.menu .menu-details li .menu-list-item{
+    padding: 12px 15px;
+    color: #fff;
+    border-top: 1px dashed rgba(0,0,0,0.15);
+}
+
+.menu .menu-details li:first-child .menu-list-item { border-top: 0; }
+.menu .menu-details ul li a{
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #FFF;
+    float: left;
+}
+
+.menu .menu-details ul li i {
+    float: left;
+}
+
+.menu .menu-details ul li i {
+    display: inline-block;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    background: rgba(0,0,0,0.1);
+    border-radius: 30px;
+}
+
+/* display inline-block so they are stacked on each other */
+.menu .menu-details ul li span{ 
+    display: inline-block;
+    width: 30px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+
+/* contact */
+.contact {
+    padding: 40px;
+    color: black;
+    background-color: #f5f5f5;
+}
+
+.contact h5 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* the little circles font awesome is inside of */
+.contact-details i {
+    display: block;
+    margin-top: 10px;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.contact-details span {
+   display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+/* background colors for font awesome */
+.fa-map-marker {
+    background-color: red; 
+}
+
+.fa-phone {
+    background-color: blue;
+}
+
+.fa-envelope {
+    background-color: green;
+}
+
+/* bubbles under */
+ul.social li {
+    padding: 10px;
+    display: inline-block !important;
+}
+
+/* same approach as above */
+ul.social li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: black;
+}
+
+/* keeping larger footer, but it could easily be reduced */
+footer {
+    margin: 50px 0;
+}
